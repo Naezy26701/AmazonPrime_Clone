@@ -1,0 +1,323 @@
+@import url("https://fonts.cdnfonts.com/css/amazon-ember");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Amazon Ember", sans-serif;
+    list-style: none;
+    outline: none;
+    text-decoration: none;
+   
+   
+}
+
+/* navigation */
+
+li, a, button{
+    font-weight: 500;
+    font-size: 16px;
+    color: #ecf0f1;
+    
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 10%;
+    background-color: black;
+    height: 60px;
+   
+    
+}
+
+.logo img{
+    cursor: pointer;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+    
+}
+
+.nav-links{
+    list-style: none;
+
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.nav-links li a{
+    transition:  all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #0088a9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+   background-color: rgba(0, 136, 169, 0.8);
+}
+/* navigation-end */
+
+
+/* main-content */
+header{
+    position: relative;
+    min-width: 320px;
+    height: 680px;
+    overflow: hidden;
+    color: white;
+}
+
+
+header > img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.text-over-image{
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: inset 545px 0px 60px 0px #000;
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    top: 48%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.text-over-image > h1{
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-top: 100px;
+    padding: 20px 0;
+}
+
+
+.text-over-image > p{
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 300;
+}
+
+.text-over-image > p:nth-child(4){
+    font-size: 15px;
+    line-height: 19px;
+    margin-top: 12px;
+}
+
+
+.text-over-image > button{
+    width: 280px;
+    background-color: #0f79af;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 14px 22px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.text-over-image > button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section > h1{
+    font-size: 45px;
+    font-weight: 300;
+    line-height: 50px;
+}
+
+.section > p{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 25px;
+    color: #353333;
+}
+
+.channelBtn{
+    width: 240%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 190px;
+    
+}
+
+.channelBtn img{
+    width: 194px;
+    height: 134px;
+    margin: 5px;
+    
+}
+
+.channelBtn img:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 8px rgba(0, 136, 169, 0.8), -3px -3px rgba(0, 136, 169, 0.8);
+}
+
+.fire-tv-header{
+    position: relative;
+    min-width: 320px;
+    height: 680px;
+    overflow: hidden;
+    color: #fff;
+}
+
+.fire-tv-header > img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.fire-over-image{
+    background-color: black;
+    background: black;
+    box-shadow: inset 5px 0px 60px 0px rgba(0, 0, 0, 0);
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    top: 60%;
+    left: 75%;
+    transform: translate(-50%, -48%);
+    background-color: transparent;
+}
+
+.fire-head{
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-left: 80px;
+}
+
+.fire-para{
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 28px;
+    width: 600px;
+    margin: 30px 0;
+    margin-left: 80px;
+}
+
+.fire-over-image > button{
+    width: 280px;
+    background-color: #0f79af;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 14px 22px;
+    margin-top: 15px;
+    margin-left: 80px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.fire-over-image > button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+
+.membership-header{
+    position: relative;
+    min-width: 320px;
+    height: 600px;
+    overflow: hidden;
+    color: #fff;
+}
+
+#membership-div{
+    background: black;
+    background-color: black;
+    box-shadow: inset 5px 0px 60px 0px rgba(0, 0, 0, 0);
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    top: 40%;
+    transform: translate(-50%, -40%);
+    background-color: transparent;
+}
+/* main-content-end */
+
+/* footer */
+footer > .logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: #181818;
+}
+
+.logo > div{
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#footer-img{
+    width: 110px;
+    height: 35px;
+    object-fit: contain;
+    text-align: center;
+}
+
+#copyright{
+    display: flex;
+    margin: 2px 3px;
+    opacity: 0.7;
+}
+
+#copyright > p{
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
+
+#copyright > p > a{
+    color: #0f79af;
+    font-size: 15px;
+}
+
+.copy{
+    color: #949494;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.logo > .para > a{
+    color: #949494;
+}
